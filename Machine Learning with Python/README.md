@@ -1,6 +1,3 @@
-Machine Learning with python capstone project
+# My machine learning depository
 
-Here is the classification model for predecting the loan status for a certain customer.
-
-Acquired from IBM course on Coursera:
-Machine Learning with python
+As am learning from my best to expertise the machine learning this repository will be containing all the models that I will be working on.
