@@ -12,3 +12,4 @@ This challenge is about predicting the possibility of survival for the passenger
 by using the dataset given and all details about the challenge can be found at 
 [Kaggle_titanic](https://www.kaggle.com/c/titanic)
 
+[MNIST Fashion Classifier]()
