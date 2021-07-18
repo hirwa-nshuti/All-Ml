@@ -17,3 +17,6 @@ When fitting the model you need to instantiate callback
 object and add a callback parameter to model fit function: </br>
 `callbacks = myCallback()
 model.fit(train_data, train_labels, epochs=5, callbacks=[callbacks])`
+</br>
+
+For more information on Callbacks and Early stopping you can visit the [Keras Callbacks API](https://keras.io/api/callbacks/)
