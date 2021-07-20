@@ -22,4 +22,5 @@ model.fit(train_data, train_labels, epochs=5, callbacks=[callbacks])
 ```
 
 
-For more information on Callbacks and Early stopping you can visit the [Keras Callbacks API](https://keras.io/api/callbacks/)
+For more information on Callbacks you can visit the [Keras Callbacks API](https://keras.io/api/callbacks/).
+To know other available callbacks APIs
