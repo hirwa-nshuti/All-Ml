@@ -30,4 +30,5 @@ Student Performance Prediction using Kaggle Dataset found here: [Kaggle Students
 [Early stopping implementation](https://github.com/hirwa-nshuti/my-ml-playground/tree/main/Callbacks):
 Used the [Keras Callbacks API](https://keras.io/api/callbacks/) to stop the neural network training everytime the needed 
 model performance is reached and this can minimize the actual computing costs.
+
 [Simple Linear Regression](https://github.com/hirwa-nshuti/my-ml-playground/tree/main/Regression): Using Sklearn to build ML models.
