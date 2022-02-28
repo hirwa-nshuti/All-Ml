@@ -1,6 +1,11 @@
-# my-ml-playground
+# All Machine Learning
 
-Machine Learning projects
+## Author: Felix
+
+### Last Modified: 28-Feb-2022
+
+Taking up the walkroad to understand the Machine Learning concepts and algorithms.
+This repository is for all projects that I've been working on and helpful resources that I used along the Journey.
 
 ## Projects Covered
 
@@ -17,3 +22,9 @@ Used the [Keras Callbacks API](https://keras.io/api/callbacks/) to stop the neur
 model performance is reached and this can minimize the actual computing costs.
 
 * [Simple Linear Regression](https://github.com/hirwa-nshuti/my-ml-playground/tree/main/Regression): Using Sklearn to build ML models.
+
+For Feedback and comments you feel free to drop a message:
+
+[![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hirwa-nshuti/)
+
+[![Twitter Badge](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/__hirwa)
