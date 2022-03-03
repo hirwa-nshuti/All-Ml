@@ -1,34 +1,44 @@
 import pandas as pd
 import numpy as np
 
-#to read the data in the csv file
-data = pd.read_csv("data.csv")
-print(data,"n")
 
-#making an array of all the attributes
-d = np.array(data)[:,:-1]
-print("n The attributes are: ",d)
+# Loading the dataSet
+def read_data(filename):
+    """
+    After data preparation this function returns the independent variables and dependent variables
+    for EnjoySports DataSet from Tom M. Mitchel's Machine Learning book
+    args: filename the data csv file to be loaded
+    """
+    data = pd.read_csv(filename)
+    df = np.array(data)[:, :-1]
+    target = np.array(data)[:, -1]
 
-#segragating the target that has positive and negative examples
-target = np.array(data)[:,-1]
-print("n The target is: ",target)
+    return df, target
 
-#training function to implement find-s algorithm
-def train(c,t):
-    for i, val in enumerate(t):
+
+# The training function for find-S algorithm
+def train(c, targ):
+    """
+    Function that returns the generalized hypothesis from given training data
+    :param c: contains all specific hypothesis
+    :param targ: The target variable of the data
+    :return: generalized hypothesis
+    """
+    for i, val in enumerate(targ):
         if val == "Yes":
-            specific_hypothesis = c[i].copy()
+            h = c[i].copy()
             break
-
     for i, val in enumerate(c):
-        if t[i] == "Yes":
-            for x in range(len(specific_hypothesis)):
-                if val[x] != specific_hypothesis[x]:
-                    specific_hypothesis[x] = '?'
+        if targ[i] == "Yes":
+            for x in range(len(h)):
+                if val[x] != h[x]:
+                    h[x] = '?'
         else:
             pass
+    return h
 
-    return specific_hypothesis
 
-#obtaining the final hypothesis
-print("n The final hypothesis is:",train(d,target))
+if __name__ == "__main__":
+    file = "EnjoySport.csv"
+    c, targ = read_data(file)
+    print(f"The final generalized hypothesis is {train(c, targ)}")
