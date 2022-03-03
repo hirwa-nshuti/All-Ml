@@ -24,6 +24,8 @@ def train(c, targ):
     :param targ: The target variable of the data
     :return: generalized hypothesis
     """
+    h = ["Φ", "Φ", "Φ", "Φ", "Φ"]
+    print(f"h0 = {h}")
     for i, val in enumerate(targ):
         if val == "Yes":
             h = c[i].copy()
@@ -35,6 +37,7 @@ def train(c, targ):
                     h[x] = '?'
         else:
             pass
+        print(f"h{i+1} = {h}")
     return h
 
 
