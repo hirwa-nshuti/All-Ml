@@ -17,7 +17,7 @@ This repository is for all projects that I've been working on and helpful resour
 |4.| [Simple Linear Regression](./4.%20Regression)|Using Sklearn to build a simple Linear Regression model.|
 |5.|[Find-S Algorithm](./5.%20Find-S%20Algorithm/)| Implementing the find-s algorithm from Tom M. Mitchell Machine learning book in python.|
 
-For Feedback and comments you feel free to drop a message:
+If interested in these topics I post content related here👇:
 
 [![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hirwa-nshuti/)
 
